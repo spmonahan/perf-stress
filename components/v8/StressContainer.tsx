@@ -2,7 +2,7 @@ import { mergeStyleSets } from '@fluentui/react';
 import * as React from 'react';
 import { injectGlobalCss } from '../../shared/injectStyles';
 import { getTestParams } from '../../shared/testParams';
-import { performanceMeasure, usePerformanceMeasure } from '../../shared/usePerformanceMeasure';
+import { performanceMeasure } from '../../shared/usePerformanceMeasure';
 import { StressComponent } from './StressComponent';
 
 const styles = mergeStyleSets({
