@@ -250,13 +250,13 @@
 //   return str;
 // }
 
-function createStyleTag(css: string) {
+function createStyleTag(css) {
   const style = document.createElement('style');
   style.textContent = css;
   return style;
 }
 
-export function injectGlobalCss(css: string) {
+export function injectGlobalCss(css) {
   performance.mark('fluent-inject-global-css-start');
   css = `
     div {
