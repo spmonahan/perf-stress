@@ -9,6 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fluentui/react": "^8.86.3",
+    "@fluentui/react-components": "^9.2.0",
+    "@fluentui/react-icons": "^2.0.178",
+    "@fluentui/web-components": "^2.5.3",
+    "@microsoft/fast-element": "^1.10.4",
     "next": "12.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
